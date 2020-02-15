@@ -10,10 +10,17 @@ header {
 .navbar {
     display: flex;
     justify-content: space-evenly;
-    border-bottom: 1px solid darkgray;
+    border-bottom: 0.1px solid darkgray;
     flex-wrap: wrap;
+    /* line-height: 0px; */
 }
+
 h1 {
+    margin: 0px;
+    width: 22%;
+}
+
+h1 a {
     color: #969ca4;
     font-size: 20px;
     font-weight: bold;
@@ -27,6 +34,9 @@ ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 21%;
 }
 
 li {
@@ -90,10 +100,15 @@ h2 {
 button {
     height: 42px;
     width: 204px;
-    font-size: 21px;
+    
     line-height: 21px;
     background-image: linear-gradient(#78a8ed, #386fbd);
     border: 0.5px solid #0a3a7d;
     border-radius: 5px;
-    color: white;
 }
+ button a {
+     color: white;
+     font-size: 21px;
+     text-decoration: none;
+     line-height: 21px;
+ }
