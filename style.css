@@ -1,0 +1,99 @@
+body {
+    font-family: Open Sans;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: radial-gradient(#e6e6e6, #b1b1b1);   
+}
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid darkgray;
+    flex-wrap: wrap;
+}
+h1 {
+    color: #969ca4;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar span {
+    font-size: 50px;
+    color: dimgray;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+li {
+    padding: 40px 10px 0px 10px;
+    font-size: 14px;
+}
+
+ul .faq {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: royalblue;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 250px;
+    
+}
+
+#logo {
+    height: 407px;
+    width: 407px;
+    margin: 0;
+    transition: background-image 1s ease-in-out;
+    background-image: url("images/git_logo.png");
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-size: 407px;
+}
+
+#logo:hover {
+    background-image: url("images/gwindows_logo.png");
+}
+
+
+h2 {
+    font-size: 40px;
+    color: #828282;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    line-height: 30px;
+    
+}
+
+#gitbold {
+    color: #646464;
+    font-weight: 700;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* img {
+    height: 407px;
+    width: 407px;
+} */
+
+button {
+    height: 42px;
+    width: 204px;
+    font-size: 21px;
+    line-height: 21px;
+    background-image: linear-gradient(#78a8ed, #386fbd);
+    border: 0.5px solid #0a3a7d;
+    border-radius: 5px;
+    color: white;
+}
